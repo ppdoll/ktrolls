@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapPin, Calculator, ArrowUpRight } from "lucide-react"
+import { MapPin, Calculator, ArrowUpRight, PartyPopper } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const tools = [
@@ -16,6 +16,13 @@ const tools = [
     href: "https://carot-pc.krtools.cloud/daangn/quotes",
     icon: Calculator,
     features: ["실시간 시세 조회", "카테고리별 분석", "가격 추천"],
+  },
+  {
+    title: "전국 축제 정보",
+    description: "전국 각지에서 열리는 축제 정보를 한눈에 확인할 수 있습니다. 지역별, 기간별로 다양한 축제를 찾아보세요.",
+    href: "https://navi-cp.krtools.cloud/festival",
+    icon: PartyPopper,
+    features: ["전국 축제 검색", "지역별 필터링", "축제 일정 확인"],
   },
 ]
 

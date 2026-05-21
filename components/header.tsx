@@ -8,8 +8,6 @@ import { Button } from "@/components/ui/button"
 const navigation = [
   { name: "홈", href: "/" },
   { name: "도구 목록", href: "/#tools" },
-  { name: "회사 소개", href: "/about" },
-  { name: "문의하기", href: "/contact" },
 ]
 
 export function Header() {
