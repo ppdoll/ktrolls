@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapPin, Calculator, ArrowUpRight, PartyPopper } from "lucide-react"
+import { MapPin, Calculator, ArrowUpRight, PartyPopper, Stethoscope } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const tools = [
@@ -23,6 +23,13 @@ const tools = [
     href: "https://navi-cp.krtools.cloud/festival",
     icon: PartyPopper,
     features: ["전국 축제 검색", "지역별 필터링", "축제 일정 확인"],
+  },
+  {
+    title: "전국 병원 전문의 검색",
+    description: "전국 병원의 전문의 정보와 항생제 사용률을 검색할 수 있습니다. 병원 주소와 함께 상세 정보를 확인하세요.",
+    href: "https://carot-pc.krtools.cloud/hospital",
+    icon: Stethoscope,
+    features: ["전문의 검색", "항생제 사용률 조회", "병원 주소 검색"],
   },
 ]
 

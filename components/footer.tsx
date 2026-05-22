@@ -5,6 +5,7 @@ const footerLinks = {
     { name: "네비 컴페어", href: "https://navi-cp.krtools.cloud/" },
     { name: "당근 컴퓨터 시세 계산기", href: "https://carot-pc.krtools.cloud/daangn/quotes" },
     { name: "전국 축제 정보", href: "https://navi-cp.krtools.cloud/festival" },
+    { name: "전국 병원 전문의 검색", href: "https://carot-pc.krtools.cloud/hospital" },
   ],
   legal: [
     { name: "이용약관", href: "/terms" },
