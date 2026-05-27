@@ -18,7 +18,7 @@ export function HeroSection() {
             <span className="text-muted-foreground">스마트 도구 모음</span>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground text-pretty">
-            네비게이션 주소 복사, 중고 물품 시세 확인 등<br className="hidden sm:inline" />
+            네비게이션 경로 비교, 중고 물품 시세 확인, 병원 검색, 전국 축제 검색 등<br className="hidden sm:inline" />
             한국인의 일상에 꼭 필요한 도구들을 무료로 제공합니다.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-4">
