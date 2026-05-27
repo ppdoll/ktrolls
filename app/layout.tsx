@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'KR Tools - 한국인을 위한 스마트 온라인 도구 모음',
-  description: 'KR Tools는 네비게이션 카피, 당근마켓 시세 계산기 등 일상에서 유용한 다양한 온라인 도구를 무료로 제공합니다. 간편하고 빠른 서비스를 경험해보세요.',
-  keywords: ['온라인 도구', '네비게이션', '당근마켓', '시세 계산기', '무료 도구', 'KR Tools'],
+  description: 'KR Tools는 네비게이션 비교, 당근마켓 시세 계산기, 병원정보 검색 등 일상에서 유용한 다양한 온라인 도구를 무료로 제공합니다. 간편하고 빠른 서비스를 경험해보세요.',
+  keywords: ['온라인 도구', '네비게이션', '당근마켓', '시세 계산기', '병원 정보' ,'무료 도구', 'KR Tools'],
   authors: [{ name: 'KR Tools' }],
   openGraph: {
     title: 'KR Tools - 한국인을 위한 스마트 온라인 도구 모음',
-    description: 'KR Tools는 네비게이션 카피, 당근마켓 시세 계산기 등 일상에서 유용한 다양한 온라인 도구를 무료로 제공합니다.',
+    description: 'KR Tools는 네비게이션 비교, 당근마켓 시세 계산기, 병원정보 검색 등 일상에서 유용한 다양한 온라인 도구를 무료로 제공합니다.',
     url: 'https://krtools.cloud',
     siteName: 'KR Tools',
     locale: 'ko_KR',
