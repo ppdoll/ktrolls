@@ -5,10 +5,9 @@ import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const navigation: { name: string; href: string; external?: boolean }[] = [
+const navigation = [
   { name: "홈", href: "/" },
   { name: "도구 목록", href: "/#tools" },
-  { name: "중고차 비교", href: "https://navi-cp.krtools.cloud/cars", external: true },
   { name: "회사 소개", href: "/about" },
   { name: "문의하기", href: "/contact" },
 ]
@@ -41,7 +40,6 @@ export function Header() {
             <Link
               key={item.name}
               href={item.href}
-              {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               {item.name}
@@ -85,7 +83,6 @@ export function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-foreground hover:bg-muted"
                       onClick={() => setMobileMenuOpen(false)}
                     >
