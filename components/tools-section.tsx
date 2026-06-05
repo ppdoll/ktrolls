@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapPin, Calculator, ArrowUpRight } from "lucide-react"
+import { MapPin, Calculator, ArrowUpRight, Car, PartyPopper, Stethoscope } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const tools = [
@@ -16,6 +16,27 @@ const tools = [
     href: "https://carot-pc.krtools.cloud/daangn/quotes",
     icon: Calculator,
     features: ["실시간 시세 조회", "카테고리별 분석", "가격 추천"],
+  },
+  {
+    title: "중고차 비교",
+    description: "헤이딜러, 엔카, 현대, 기아, BMW, 벤츠 등 다양한 중고차 플랫폼의 매물을 한눈에 비교할 수 있습니다.",
+    href: "https://navi-cp.krtools.cloud/cars",
+    icon: Car,
+    features: ["다양한 플랫폼 비교", "실시간 매물 조회", "가격 비교 분석"],
+  },
+  {
+    title: "축제 공연",
+    description: "전국의 축제와 공연 정보를 한눈에 확인할 수 있습니다. 지역별, 날짜별로 쉽게 검색하세요.",
+    href: "https://navi-cp.krtools.cloud/festivals",
+    icon: PartyPopper,
+    features: ["전국 축제 정보", "지역별 검색", "일정 확인"],
+  },
+  {
+    title: "병원 검색",
+    description: "내 주변 병원을 쉽게 찾고 진료 정보를 확인할 수 있습니다. 응급실, 약국 정보도 함께 제공합니다.",
+    href: "https://navi-cp.krtools.cloud/hospitals",
+    icon: Stethoscope,
+    features: ["내 주변 병원 검색", "진료과목 필터", "응급실/약국 정보"],
   },
 ]
 
